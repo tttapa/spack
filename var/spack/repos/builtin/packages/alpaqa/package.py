@@ -11,13 +11,14 @@ class Alpaqa(CMakePackage):
     """Augmented Lagrangian and PANOC solvers for nonconvex numerical optimization"""
 
     homepage = "https://github.com/kul-optec/alpaqa"
-    url = "https://github.com/kul-optec/alpaqa/archive/refs/tags/1.0.0a16.zip"
+    url = "https://github.com/kul-optec/alpaqa/archive/refs/tags/1.0.0a17.zip"
     git = "https://github.com/kul-optec/alpaqa.git"
 
     maintainers("tttapa")
     license("LGPL-3.0-or-later")
 
     version("develop", branch="develop")
+    version("1.0.0a17", sha256="ebaf36f5b5325c71708d8192c6405da783b3735ec4f5f8b624dd0cd343c22555")
     version("1.0.0a16", sha256="89938f6c2e3f56d7852fd596746693e986f9d740100ec1a941703ae2d16ccaa8")
     version("1.0.0a15", sha256="f5ddda7f72336ce6b3055375eda9c1ec4ada2a8ce92be5db64ddd03422523640")
     version("1.0.0a14", sha256="b5101afad6c6b7d3747c8149e5d7ff7c679e7c86a239ccea65d8408a5e9c9528")
